@@ -15,8 +15,7 @@ public class visitors {
 	for(int day = 1; day <= 5; day++)
 	{
 			System.out.println(
-					"Enter the number"
-					+"of visitors on day"
+					"Enter the number of visitors on day"
 							+ day + ":"
 							);
 			numVisitors = input.nextInt();
@@ -25,8 +24,7 @@ public class visitors {
 	}//end of for loop
 	
 	avgVisitors = (totalVisitors / 5);
-	System.out.println("The average number of"
-			+ "visitors is :"
+	System.out.println("The average number of visitors is :"
 			+ avgVisitors);
 	}
 
