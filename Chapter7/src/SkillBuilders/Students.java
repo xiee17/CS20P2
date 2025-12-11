@@ -9,10 +9,10 @@ public class Students {
 	
 	public Students() // constructor Method
 	{
-		firstName = "unknown";
-		lastName = "unknown";
+		firstName = "Yujin";
+		lastName = "Xie";
 		address = "unknown";
-		StuID = 00000;
+		StuID = 11000;
 	}
 	public Students(String f, String l, String ad, int id)//Overload Constructor method
 	{

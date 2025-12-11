@@ -8,6 +8,9 @@ public class circle {
 	{
 		radius = 1;
 	}
+	public circle(double r) {
+		radius = r;
+	}
 	public double getRadius()
 	{
 		return radius;
@@ -24,6 +27,7 @@ public class circle {
 	public double circumference()
 	{
 		double circ = 2 * PI *radius;
+		return circ;
 	}
 	
 	public String toString()
